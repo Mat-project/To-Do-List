@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    margin-top: 5%;
+
+    margin: 5px;
+   border: 2px solid black;
+   height: 50vh;
+   justify-content: center;
+    align-items: center;
+    border: none;
+}
+.square{
+    display: flex;
+    padding: 100px;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    display: grid;
+    border: 2px solid black;
+    height: 30vh;
+    padding: 2%;
+    justify-content: center;
+    border: none;
+   
+}
+.input,.toog_box{
+    border-radius: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    width: 40vh;
+    
+}
+button:focus,
+button:hover{
+    background-color: rgba(5, 220, 248, 0.582);
+    color: #ffffffcb;
+    cursor: pointer;
+}
