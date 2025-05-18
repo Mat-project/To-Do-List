@@ -1,5 +1,4 @@
 import Header from "./header";
-import Footer from "./footer";
 import Content from "./main";
 import Additem from "./additem";
 import { useState, useEffect } from 'react'
@@ -84,7 +83,7 @@ const del=(id) =>{
             del={del}
           />
         </div>
-        <Footer />
+
     </div>
   );
 }
