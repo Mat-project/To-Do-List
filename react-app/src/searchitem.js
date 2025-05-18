@@ -1,20 +1,31 @@
 import React from 'react'
+import { HiSearch } from 'react-icons/hi'
 
-const searchItem = ({search,setSearch}) => {
+const SearchItem = ({search, setSearch}) => {
   return (
-    <form action="" className='searchForm' onSubmit={(e)=>e.preventDefault()}>
-        <label htmlFor="search">search</label>
+    <div className='search-form-container'>
+      <div className="search-form">
+        <HiSearch className="search-icon" />
         <input
-         type="text" 
-         id='search'
-         role='searchbox'
-         placeholder='search items'
-         value={search}
-         onChange={(e)=>setSearch(e.target.value)}
-
-         />
-    </form>
+          type="text" 
+          id='search'
+          className="search-input"
+          placeholder='Search tasks...'
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+        {search && (
+          <button 
+            className="clear-search" 
+            onClick={() => setSearch('')}
+            aria-label="Clear search"
+          >
+            ×
+          </button>
+        )}
+      </div>
+    </div>
   )
 }
 
-export default searchItem
+export default SearchItem
