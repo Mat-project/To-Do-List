@@ -2,7 +2,7 @@
 
 A modern, feature-rich task management application built with React that allows you to organize tasks by categories.
 
-![Task Manager Screenshot](react-app\src\img.png)
+![Task Manager Screenshot](react-app/src/img.png)
 
 ## Features
 
