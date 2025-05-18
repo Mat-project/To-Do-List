@@ -14,6 +14,14 @@ A modern, feature-rich task management application built with React that allows 
 - 🗑️ Delete tasks you no longer need
 - 💾 Tasks are saved in local storage, persisting between sessions
 
+## Demo
+
+Check out the video demonstration of the Task Manager application:
+
+[Watch the Demo Video](react-app/src/video1.mp4)
+
+*The demo showcases all the features mentioned above and provides a walkthrough of the application usage.*
+
 ## Setup and Installation
 
 1. Clone the repository
